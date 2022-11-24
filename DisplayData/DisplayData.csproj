@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+	  <TargetFramework>netcoreapp3.1</TargetFramework>
+	  <!-- <TargetFramework>netcoreapp2.1</TargetFramework> -->
+	  <!--                -> Pour l'iut, NetCoreApp 3.1 pas installer -->
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Colorful.Console" Version="1.2.15" /> <!-- Couleur de la console -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataModel_Pokemon\DataModel_Pokemon.csproj" />
+    <ProjectReference Include="..\GetWebServerData\GetWebServerData.csproj" />
+  </ItemGroup>
+
+</Project>
